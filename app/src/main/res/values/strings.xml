@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">FirebaseAuthenticate</string>
+    <string name="name">Enter Name</string>
+    <string name="code">Enter Client Code</string>
+    <string name="email">Enter Email</string>
+    <string name="count">Total Count</string>
+    <string name="phone">Enter Phone</string>
+    <string name="save">Save</string>
+    <string name="update">Update</string>
+    <string name="delete">Delete</string>
+    <string name="searchid">Search ID</string>
+    <string name="searchbyemail">Search Email</string>
+    <string name="showlist">Show List</string>
+    <string name="showtotalcount">Total SignIn</string>
+    <string name="signin">Sign In</string>
+    <string name="cancel">Cancel</string>
+</resources>

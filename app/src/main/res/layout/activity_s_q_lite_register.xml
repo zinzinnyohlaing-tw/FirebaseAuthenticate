@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/a"
+    tools:context=".SQLiteRegister">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/b"/>
+
+    <EditText
+        android:id="@+id/code"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:paddingLeft="20dp"
+        android:hint="@string/code"
+        android:textColor="#010417"
+        android:textStyle="bold|italic"/>
+
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:paddingLeft="20dp"
+        android:hint="@string/email"
+        android:textColor="#010417"
+        android:textStyle="bold|italic"/>
+
+    <EditText
+        android:id="@+id/totalcount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:paddingLeft="20dp"
+        android:hint="@string/count"
+        android:textColor="#010417"
+        android:textStyle="bold|italic"/>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/btnsave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#00B0FF"
+            android:text="@string/save"
+            android:onClick="saveAccount"
+            android:textStyle="bold|italic" />
+
+        <Button
+            android:id="@+id/btnupdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#00B0FF"
+            android:text="@string/update"
+            android:onClick="updateAccount"
+            android:textStyle="bold|italic" />
+        <Button
+            android:id="@+id/btndelete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#00B0FF"
+            android:text="@string/delete"
+            android:onClick="deleteAccount"
+            android:textStyle="bold|italic" />
+
+
+    </LinearLayout>
+    <Button
+            android:id="@+id/btnsearchbyid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#00B0FF"
+            android:layout_marginLeft="70dp"
+            android:layout_marginRight="75dp"
+            android:text="@string/searchid"
+            android:onClick="searchbycode"
+            android:textStyle="bold|italic" />
+
+            <Button
+                android:id="@+id/btnsearchbyemail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#00B0FF"
+                android:layout_marginLeft="70dp"
+                android:layout_marginRight="75dp"
+                android:text="@string/searchbyemail"
+                android:onClick="searchbyemail"
+                android:textStyle="bold|italic" />
+
+        <Button
+            android:id="@+id/btnshowlist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#00B0FF"
+            android:layout_marginLeft="70dp"
+            android:layout_marginRight="75dp"
+            android:text="@string/showlist"
+            android:onClick="showAllData"
+            android:textStyle="bold|italic" />
+
+            <Button
+                android:id="@+id/btnshowtotalcount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#00B0FF"
+                android:layout_marginLeft="70dp"
+                android:layout_marginRight="75dp"
+                android:text="@string/showtotalcount"
+                android:onClick="totalCount"
+                android:textStyle="bold|italic" />
+    <Button
+        android:id="@+id/btncancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#00B0FF"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="75dp"
+        android:text="@string/cancel"
+        android:onClick="cancelData"
+        android:textStyle="bold|italic" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

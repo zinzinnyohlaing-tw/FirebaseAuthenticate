@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "601246760953",
+    "firebase_url": "https://fir-authenticate-14269.firebaseio.com",
+    "project_id": "fir-authenticate-14269",
+    "storage_bucket": "fir-authenticate-14269.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:601246760953:android:2dbb89048ae0cd6a4b4728",
+        "android_client_info": {
+          "package_name": "ttes.first.firebaseauthenticate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "601246760953-7q1ff22jf97g6sv0jnhl84qao1e73b4c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ttes.first.firebaseauthenticate",
+            "certificate_hash": "546462607e14ad8b69f48fe6cfb075bf1d122209"
+          }
+        },
+        {
+          "client_id": "601246760953-v03od3pklol8d2ibht9lc9li2bk9sv72.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXahW3KNhDf0EFilA0sqd4RY9i26CqdlI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "601246760953-v03od3pklol8d2ibht9lc9li2bk9sv72.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
